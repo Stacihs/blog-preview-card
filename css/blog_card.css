@@ -52,7 +52,7 @@
   max-width: 100%;
 }
 
-#abstract {
+#blog-image {
   border-radius: 10px;
   height: 200px;
 }
@@ -70,4 +70,20 @@
   height: 26px;
   padding: 4px 12px;
   border-radius: 4px;
+}
+
+#publish-date {
+    font-family: figtree-medium;
+    font-size: 12px;
+}
+
+#title {
+    font-family: figtree-extra-bold;
+    font-size: 20px;
+}
+
+#description {
+    font-family: figtree-medium;
+    font-size: 14;
+    color: var(--gray);
 }

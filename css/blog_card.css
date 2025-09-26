@@ -36,7 +36,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  width: 327px;
+  width: 20.44em;
   height: auto;
   padding: 24px;
   border-radius: 20px;
@@ -59,7 +59,7 @@
 
 .image {
   height: 200px;
-  width: 279px;
+  width: fit-content;
 }
 
 #blog-image {
@@ -87,7 +87,7 @@ article {
   font-family: figtree-extra-bold;
   font-size: 12px;
   width: fit-content;
-  height: 26px;
+  height: 2em;
   padding: 4px 12px;
   border-radius: 4px;
   gap: 0px 8px;

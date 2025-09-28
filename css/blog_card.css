@@ -20,6 +20,7 @@
   --black: #111111;
   --gray: #6b6b6b;
   --white: #ffffff;
+  font-size: 16px;
 }
 
 .page-wrapper {
@@ -29,7 +30,6 @@
   justify-content: center;
   align-items: center;
   background-color: var(--main-bg-color);
-  font-size: 16px;
   line-height: 150%;
 }
 
@@ -81,7 +81,7 @@ article {
   align-items: center;
   background-color: var(--main-bg-color);
   font-family: figtree-extra-bold;
-  font-size: 12px;
+  font-size: 0.8rem;
   width: fit-content;
   height: 2em;
   padding: 4px 12px;
@@ -92,7 +92,7 @@ article {
 #publish-date {
   display: flex;
   font-family: figtree-medium;
-  font-size: 12px;
+  font-size: 0.8rem;
   height: 18px;
   align-items: center;
 }
@@ -100,7 +100,7 @@ article {
 #title {
   display: flex;
   font-family: figtree-extra-bold;
-  font-size: 20px;
+  font-size: 1.3rem;
   height: 30px;
   align-items: center;
 }
@@ -109,7 +109,7 @@ article {
   display: flex;
   align-items: center;
   font-family: figtree-medium;
-  font-size: 14px;
+  font-size: 0.9rem;
   height: 63px;
   color: var(--gray);
 }
@@ -142,13 +142,13 @@ article {
 
 #author-name {
   font-family: figtree-extra-bold;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 #attribution {
   align-items: center;
   justify-content: center;
-  font-size: 12px;
+  font-size: 0.8rem;
   font-family: figtree-italic-variable;
   color: var(--gray);
   margin-top: 10px;
@@ -167,6 +167,5 @@ article {
   #attribution {
     display: flex;
     flex-direction: row;
-
   }
 }

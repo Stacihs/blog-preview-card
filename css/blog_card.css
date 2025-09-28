@@ -170,5 +170,6 @@ article {
   #attribution {
     display: flex;
     flex-direction: row;
+    column-gap: 5px;
   }
 }

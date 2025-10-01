@@ -130,12 +130,13 @@ article {
   gap: 0px 12px;
 }
 
-.author-pic,
-.author-name,
+
 .category,
-.publish-date,
 .title,
-.description {
+.description,
+.publish-date,
+.author-pic,
+.author-name {
   margin: 0;
 }
 

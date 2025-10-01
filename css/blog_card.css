@@ -62,7 +62,7 @@
   width: auto;
 }
 
-#blog-image {
+.blog-image {
   border-radius: 10px;
   width: 100%;
   height: 100%;
@@ -75,7 +75,7 @@ article {
   gap: 12px 0px;
 }
 
-#category {
+.category {
   display: flex;
   align-items: center;
   background-color: var(--main-bg-color);
@@ -88,7 +88,7 @@ article {
   gap: 0px 8px;
 }
 
-#publish-date {
+.publish-date {
   display: flex;
   font-family: figtree-medium, sans-serif;
   font-size: 0.8rem;
@@ -96,7 +96,7 @@ article {
   align-items: center;
 }
 
-#title {
+.title {
   display: flex;
   font-family: figtree-extra-bold, sans-serif;
   font-size: 1.3rem;
@@ -104,12 +104,12 @@ article {
   align-items: center;
 }
 
-#title:hover {
+.title:hover {
   color: var(--main-bg-color);
   cursor: pointer;
 }
 
-#description {
+.description {
   display: flex;
   align-items: center;
   font-family: figtree-medium, sans-serif;
@@ -118,38 +118,38 @@ article {
   color: var(--gray);
 }
 
-#author,
-#author-pic,
-#author-name {
+.author,
+.author-pic,
+.author-name {
   display: flex;
   align-items: center;
   width: fit-content;
 }
 
-#author-pic {
+.author-pic {
   gap: 0px 12px;
 }
 
-#author-pic,
-#author-name,
-#category,
-#publish-date,
-#title,
-#description {
+.author-pic,
+.author-name,
+.category,
+.publish-date,
+.title,
+.description {
   margin: 0;
 }
 
-#user-pic {
+.user-pic {
   width: 32px;
   height: auto;
 }
 
-#author-name {
+.author-name {
   font-family: figtree-extra-bold, sans-serif;
   font-size: 0.9rem;
 }
 
-#attribution {
+.attribution {
   align-items: center;
   justify-content: center;
   font-size: 0.8rem;
@@ -158,7 +158,7 @@ article {
   margin-top: 10px;
 }
 
-#attribution p {
+.attribution p {
     margin: 0;
 }
 
@@ -167,7 +167,7 @@ article {
     width: 24em;
   }
 
-  #attribution {
+  .attribution {
     display: flex;
     flex-direction: row;
     column-gap: 5px;
